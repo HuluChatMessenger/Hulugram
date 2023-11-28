@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="51.2dip"
+    tools:ignore="RtlHardcoded">
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="38.4dip"
+        android:layout_height="38.4dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="6.6dip"
+        android:layerType="hardware"
+        tools:src="#0f0" />
+
+    <LinearLayout
+        android:id="@+id/text_wrap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/photo"
+        android:layout_alignBottom="@+id/photo"
+        android:layout_marginLeft="6.4dip"
+        android:layout_marginRight="6.6dip"
+        android:layout_toRightOf="@+id/photo"
+        android:gravity="center_vertical|left"
+        android:orientation="vertical">
+
+<!--        <TextView-->
+<!--            android:id="@+id/appName"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:ellipsize="end"-->
+<!--            android:fontFamily="sans-serif-medium"-->
+<!--            android:gravity="left"-->
+<!--            android:singleLine="true"-->
+<!--            android:textColor="#0f0"-->
+<!--            android:textSize="6.4dip"-->
+<!--            tools:text="@string/AppName" />-->
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="left"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textSize="14dip"
+            tools:text="Wow Such Doge" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textSize="10dip"
+            tools:text="HUlugram" />
+
+    </LinearLayout>
+</RelativeLayout>

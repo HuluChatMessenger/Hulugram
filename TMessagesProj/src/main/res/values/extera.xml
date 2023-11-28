@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+ This is the source code of exteraGram for Android.
+
+ We do not and cannot prevent the use of our code,
+ but be respectful and credit the original author.
+
+ Copyright @immat0x1, 2023
+
+-->
+
+<resources>
+    <string name="SelectText">Select Text</string>
+    <string name="RegenerateResponse">Regenerate</string>
+
+    <string name="CancelAirtimeAlertTitle">Discard</string>
+    <string name="CancelAirtimeAlertText">"Are you sure you want to exit? "</string>
+
+    <string name="QRLoginTitle">Log in to Hulugram by QR Code</string>
+    <string name="QRLoginMessage">Scan this QR code it other telegram logged in device to login to hulugram.</string>
+    <string name="QRLoginStepTitle">Log in to Hulugram by QR Code</string>
+    <string name="QRLoginStep">
+        1 Open Telegram on your phone
+        2 Go to Settings > Devices > Link Desktop Device
+        3 Point your phone at this screen to confirm login
+        </string>
+
+
+
+    <string name="ShowStory">Show Story</string>
+    <string name="Fonts">Fonts</string>
+
+
+    <string name="OpenPhoto">Open photo</string>
+    <string name="OPenChat">Open chat</string>
+    <string name="HideTabs">Hide tabs</string>
+    <string name="HideTabsInArchive">Hide tabs in archive</string>
+
+    <string name="HideRecentChatInUsers">Hide Recent Chats</string>
+
+    <string name="HideRecentChatInUsersDesc">This action will hide the recent user popup screen in user private chat, which is designed for quickly switching to another user.</string>
+
+    <string name="WidePostDesc">Messages will expand horizontally to cover the entire width of the screen, but this behavior will be limited to channels only.</string>
+
+    <string name="TouchOnUserPhoto">Touch on user photo</string>
+    <string name="HiddenChatInfo">All of your hidden chat will be shown here</string>
+
+    <string name="RemoveFromCategory">Remove From %s</string>
+
+    <string name="EscrowDesclaimer"> By placing this order you confirm that you read and agree toour terms and conditions.</string>
+    <string name="HuluChooseFolderIcon">Choose an Icon</string>
+    <string name="DisableLocalFilter">Disable Filter</string>
+    <string name="HideMessageEditButton">Hide Message Edit Button</string>
+    <string name="WidePost">Wide Post</string>
+    <string name="MessageButtonType">Message Button Type</string>
+    <string name="ShareAPK">Share Hulugram</string>
+    <string name="ShareAPKInfo">Share **Hulugram** to your friends</string>
+    <string name="RecentChats">Recent Chats</string>
+    <string name="MiniAppHint">Tap on this to access mini apps</string>
+    <string name="LockChats">LockChats</string>
+    <string name="UnLockChats">UnLock Chats</string>
+    <string name="TranslationSetting">Translation Setting</string>
+    <string name="Bookmark">Bookmark</string>
+    <string name="Feed">Feed</string>
+    <string name="PermissionNoAudioVideo">Hulugram needs access to your microphone so that you can record videos.</string>
+    <string name="QRCodePermissionNoCamera">Hulugram needs access to your camera so that you can scan QR codes.</string>
+    <string name="ButtonShape">Button Shape</string>
+    <string name="ShapeSquared">Squared</string>
+    <string name="ShapeRounded">Rounded</string>
+    <string name="ShapePills">Pills</string>
+    <string name="ShapeLinear">Linear</string>
+    <string name="ShapeStock">Default</string>
+    <string name="exteraAppName" translatable="false">Hulugram</string>
+    <string name="HulugramAppNameFull" translatable="false">Hulugram Messenger</string>
+    <string name="Preferences">Hulugram Setting</string>
+    <string name="OfficialChannel">Official Channel</string>
+    <string name="HideStory">Hide Story</string>
+    <string name="ShortcutsForAdmins">Shortcuts for Admins</string>
+    <string name="MutualContactDesc">%s and you have added each other in the contacts list.</string>
+    <string name="EditExceptionHint">You can disable auto-translate for specific topics in this group.</string>
+    <string name="EditExceptionTitle">Do you want to edit topics exceptions?</string>
+    <string name="AutoTranslate">Auto-Translate</string>
+    <string name="AutoTranslateDesc">Automatically translate messages that are in another language.</string>
+    <string name="AutoTranslateTitle">Do you want auto-translation of messages?</string>
+    <string name="AutoTranslateDesc2">These chats will or will not be translated regardless of the settings above.</string>
+    <string name="AlwaysTranslate">Always translate</string>
+    <string name="NeverTranslate">Never translate</string>
+    <!-- Main Menu -->
+    <string name="Links">Links</string>
+    <string name="AboutExteraDescription">Experimental Telegram client based on Official Sources!</string>
+    <string name="Channel">Channel</string>
+    <string name="Crowdin">Translate</string>
+    <string name="SourceCode">Source Code</string>
+    <string name="Categories">Categories</string>
+
+
+
+
+    <!-- Appearance -->
+    <string name="AvatarCorners">Avatar Corners</string>
+    <string name="AvatarCornersLeft">Square</string>
+    <string name="AvatarCornersRight">Circle</string>
+
+    <string name="ListOfChats">Chat List</string>
+    <string name="ActionBarTitle">Title Text</string>
+    <string name="ActionBarTitleUsername">Username</string>
+    <string name="ActionBarTitleName">First Name</string>
+    <string name="HideActionBarStatus">Hide Status</string>
+    <string name="CenterTitle">Center Title</string>
+    <string name="ListOfChatsInfo">The title text will change depending on the folder name when only icons are enabled.</string>
+
+    <string name="TabTitleStyle">Folder Title</string>
+    <string name="TabTitleStyleTextWithIcons">Names with Icons</string>
+    <string name="TabTitleStyleIconsOnly">Icons only</string>
+    <string name="TabTitleStyleTextOnly">Names only</string>
+    <string name="TabStyle">Folder Style</string>
+    <string name="TabStyleTextOnly">Text</string>
+    <string name="TabStyleRounded">Rounded</string>
+    <string name="TabStyleChips">Chips</string>
+    <string name="TabStylePills">Pills</string>
+    <string name="TabCounter">Notification Counter</string>
+    <string name="HideAllChats">Hide \"%1$s\" Tab</string>
+    <string name="FoldersInfo">Icons are synchronized with Telegram.</string>
+    <string name="SeparateMediaTab">Separate media to video and photo tab</string>
+    <string name="ShowOtherItem">Show 3 dot menu</string>
+    <string name="DialogCounterHintRow">Show dialog counter bar</string>
+    <string name="ShowNotificationMessageHint">Show in app notification for latest updates</string>
+
+    <string name="IconPack">Icons</string>
+    <string name="SolarIcons">Use \"Solar\" Icons</string>
+    <string name="SolarIconsInfo" translatable="false">Powered by @Design480 × @TierOhneNation</string>
+
+    <string name="ForceBlur">Force Blur</string>
+    <string name="ForceBlurInfo">Blur will be applied to absolutely all themes.</string>
+    <string name="ForceSnow">Force Snow</string>
+    <string name="ForceSnowInfo">Snow will appear in the action bar, drawer and background of chats.</string>
+    <string name="UseSystemFonts">Use System Fonts</string>
+    <string name="UseSystemEmoji">Use System Emoji</string>
+    <string name="NewSwitchStyle">MD3 Switch Style</string>
+    <string name="DisableDividers">Disable Dividers</string>
+    <string name="AlternativeNavigation">Alternative Navigation</string>
+    <string name="AlternativeNavigationInfo">An experimental option that includes new, smoother transition animations between screens.</string>
+
+    <string name="DrawerOptions">Drawer Options</string>
+    <string name="DrawerIconSet">Icon Set</string>
+    <string name="Drawer">Drawer</string>
+    <string name="DrawDialogIcons">Show Dialog Icons</string>
+    <string name="DrawDialogOnlineStatus">Show Online Status</string>
+    <string name="OnlineChats">Online Chats</string>
+    <string name="OnlineChatsDesc">Your contacts will appear here as soon as they come online</string>
+
+    <string name="HuluResetChatFilerMessage">This will reset your chat filter setting to default setting</string>
+    <string name="HuluChatResetSettingTitle">Reset Settings</string>
+    <string name="HuluChatReset">Reset</string>
+
+    <string name="DrawerSetting">Drawer Setting</string>
+    <string name="DrawerAlternativeOpeningAnimation">Alternative Opening Animation</string>
+
+    <string name="DependsOnTheDate">Depends on the Date</string>
+    <string name="NewYear">New Year</string>
+    <string name="ValentinesDay">Valentine\'s Day</string>
+    <string name="Halloween">Halloween</string>
+
+    <string name="DrawerElements">Drawer Elements</string>
+
+    <!-- General -->
+    <string name="CameraType">Camera Type</string>
+    <string name="CameraTypeSystem">System</string>
+    <string name="DefaultCameraInfo">Use the Telegram\'s built-in Camera.</string>
+    <string name="CameraXInfo">CameraX is only supported on <![CDATA[<a href="https://developer.android.com/training/camerax/devices">selected devices</a>]]>, effects and lenses support depends on your manufacturer.</string>
+    <string name="SystemCameraInfo">Access directly the system camera (not applicable for video messages).</string>
+    <string name="PerformanceMode">Performance Mode</string>
+    <string name="PerformanceModeInfo">CameraX\'s Quality will be reduced in favor of performance.</string>
+    <string name="CameraQuality">Camera Quality</string>
+
+    <string name="DisableNumberRounding">Disable Number Rounding</string>
+    <string name="FormatTimeWithSeconds">Format Time with Seconds</string>
+    <string name="TabletMode">Tablet Mode</string>
+
+    <string name="DownloadSpeedBoost">Download Speed Boost</string>
+    <string name="UploadSpeedBoost">Upload Speed Boost</string>
+    <string name="Ultra">Ultra</string>
+    <string name="InAppVibration">In-App Vibration</string>
+
+    <string name="SpeedBoostInfo">Ultra Boost can cause problems with downloading files and streaming videos on a slow internet connection.</string>
+
+    <string name="Profile">Profile</string>
+    <string name="HidePhoneNumber">Hide Phone Number</string>
+    <string name="ShowIdAndDc">Show ID and DC</string>
+    <string name="ShowIdAndDcInfo">Telegram APl shows IDs as they are, while the Bot API adds a minus sign for groups and -100 for supergroups, broadcast groups and channels.</string>
+
+    <string name="ArchiveOnPull">Open Archive on Pull-down</string>
+    <string name="DisableUnarchiveSwipe">Disable \"Unarchive\" swipe</string>
+    <string name="DisableUnarchiveSwipeInfo">Swiping to the left will not remove chats from the archive.</string>
+
+    <!-- Other -->
+    <string name="AnalyticsInfo">When these options are enabled, data about the device is collected and sent to Google Analytics and Crashlytics, allowing us to keep usage statistics and track errors in the app. \n\nHowever, if the options are switched off, the data collection stops and the sent data is instantly deleted.</string>
+    <string name="DeleteAccount">Delete Account</string>
+    <string name="ResetSettings">Reset Settings</string>
+
+    <!-- Chats -->
+    <string name="StickerSize">Stickers Size</string>
+    <string name="StickerSizeLeft">Small</string>
+    <string name="StickerSizeRight">Big</string>
+    <string name="StickerSizeDialogMessageReplyTo">wow</string>
+    <string name="StickerSizeDialogMessage">woah, he is so cute!</string>
+
+    <string name="StickerShape">Stickers Shape</string>
+    <string name="StickerShapeRounded">Rounded</string>
+    <string name="StickerShapeRoundedMsg">Message</string>
+
+    <string name="StickerTime">Hide Time on Stickers</string>
+    <string name="UnlimitedRecentStickers">Unlimited Recent Stickers</string>
+    <string name="HideCategories">Hide Categories</string>
+    <string name="HideCategoriesInfo">The categories will disappear from the search bar in the reactions selection dialog and emoji panel.</string>
+
+    <string name="DoubleTap">Double Tap</string>
+    <string name="DoubleTapIncoming">Incoming Messages</string>
+    <string name="DoubleTapOutgoing">Outgoing Messages</string>
+    <string name="DoubleTapInfo">Some actions require administrator rights in the chat or channel.</string>
+
+    <string name="BottomButton">Bottom Button</string>
+    <string name="AdminShortcuts">Quick Admin Shortcuts</string>
+    <string name="ChatShortcuts">Quick Chat Shortcuts</string>
+    <string name="DrawerShortcuts">Quick Drawer Shortcuts</string>
+
+    <string name="HideKeyboardOnScroll">Hide Keyboard on Scroll</string>
+    <string name="DisableJumpToNextChannel">Disable \"Jump to the Next Channel\"</string>
+    <string name="ShowActionTimestamps">Show Timestamps for Actions</string>
+    <string name="HideShareButton">Hide Side \"%1$s\" Button</string>
+    <string name="MessageMenu">Message Menu</string>
+    <string name="AddCommaAfterMention">Add Comma after Mention</string>
+    <string name="AddCommaAfterMentionInfo">A comma will be placed automatically after tapping on the user you want to mention.</string>
+
+    <string name="HidePhotoCounter">Hide Photo Counter</string>
+    <string name="HidePhotoCounterInfo">The annoying photo counter at the top of the screen will disappear from your view.</string>
+    <string name="HideCameraTile">Hide Instant Camera Tile</string>
+    <string name="HideCameraTileInfo">The camera tile will be replaced by a floating button. Pressing the button will launch the Telegram camera, holding it down will launch the system camera.</string>
+
+    <string name="StaticZoom">Static Zoom</string>
+    <string name="StaticZoomInfo">When recording video messages, the zoom will not reset if you release your fingers.</string>
+    <string name="VideoMessagesCamera">Camera in Video Messages</string>
+    <string name="VideoMessagesCameraRear">Rear</string>
+    <string name="VideoMessagesCameraFront">Front</string>
+    <string name="VideoMessagesCameraAsk">Ask</string>
+    <string name="RearCamera">Rear Camera</string>
+    <string name="FrontCamera">Front Camera</string>
+    <string name="DoubleTapSeekDuration">Double Tap Skip Time</string>
+    <string name="RememberLastUsedCamera">Remember last used Camera</string>
+    <string name="RememberLastUsedCameraInfo">When recording video messages, the last used camera will be selected.</string>
+    <string name="PauseOnMinimize">Auto-Pause</string>
+    <string name="PauseOnMinimizeInfo">Pauses a video playback when device is locked or Hulugram is minimized.</string>
+    <string name="DisablePlayback">Disable Playback</string>
+    <string name="DisablePlaybackInfo">Disables playback when volume button is pressed.</string>
+
+    <!-- Boost -->
+    <string name="Encryptors">Encryptors</string>
+    <string name="Encrypt">Encrypt</string>
+    <string name="Decrypt">Decrypt</string>
+    <string name="EncryptionKeyInfo">This key will be used to encrypt and decrypt messages in this chat room.</string>
+
+    <!-- Updates -->
+    <string name="LastCheck">Last Check</string>
+    <string name="CurrentVersion">Current Version</string>
+    <string name="BuildType">Build Type</string>
+    <string name="BTRelease">Release</string>
+    <string name="BTBeta">Beta</string>
+    <string name="CheckOnLaunch">Check on Launch</string>
+    <string name="ClearUpdatesCache">Clear Updates Cache</string>
+    <string name="ClearedUpdatesCache">Cleared **%1$s** of Cache.</string>
+    <string name="NothingToClear">Nothing to Clear.</string>
+
+    <string name="CheckForUpdates">Check for Updates</string>
+    <string name="CheckingForUpdates">Checking for Updates…</string>
+    <string name="NoUpdates">Updates not found.</string>
+
+    <string name="UpdateAvailable">Update Available!</string>
+    <string name="Version">Version</string>
+    <string name="UpdateSize">Update Size</string>
+    <string name="Changelog">Changelog:</string>
+
+    <!-- Message Details -->
+    <string name="Details">Details</string>
+    <string name="Date">Date</string>
+    <string name="EditedDate">Edit Date</string>
+    <string name="ForwardedDate">Forward Date</string>
+    <string name="FileSize">File Size</string>
+    <string name="FileName">File Name</string>
+    <string name="FilePath">File Path</string>
+    <string name="Resolution">Resolution</string>
+    <string name="Bitrate">Bitrate</string>
+    <string name="MimeType">Mime Type</string>
+    <string name="Datacenter">Datacenter</string>
+
+    <!-- Other -->
+    <string name="RestartRequired">Restart the App to take effect.</string>
+    <string name="ResetSettingsBulletin">**Hulugram** Preferences have been reset.</string>
+    <string name="UserNotFound">User with this **ID** not found.</string>
+    <string name="PhotoCopied">Photo copied to clipboard.</string>
+
+    <string name="MutualContact">mutual contact</string>
+    <string name="ToBeginning">To Beginning</string>
+    <string name="MessageHistory">History</string>
+    <string name="BoldItalic">Bold Italic</string>
+    <string name="OpenPremiumBot">Open Official Bot</string>
+    <string name="CopyPhoto">Copy Photo</string>
+    <string name="CopySticker">Copy Sticker</string>
+    <string name="SaveMessage">Save Message</string>
+
+    <string name="TrackSaved">Track saved to **%1$s**.</string>
+    <string name="ChannelToSaveChanged">Tracks will be saved to **%1$s**.</string>
+
+    <string name="ConfirmCall">Confirm Call</string>
+    <string name="CallTo">Call to **%1$s**?</string>
+
+    <string name="formatterDay24HSec" translatable="false">HH:mm:ss</string>
+    <string name="formatterDay12HSec" translatable="false">h:mm:ss a</string>
+
+    <string name="AppIconMonet" translatable="false">Monet</string>
+    <string name="AppIconGradient">Gradient</string>
+    <string name="AppIconAurora">Aurora</string>
+    <string name="AppIconNeo">Neo</string>
+    <string name="AppIconGoogle" translatable="false">Google</string>
+    <string name="AppIconAmethyst">Amethyst</string>
+    <string name="AppIcon480DSGN" translatable="false">480 DSGN</string>
+    <string name="AppIconSpace">Space</string>
+    <string name="AppIconOrbit">Orbit</string>
+    <string name="AppIconSus">Impostor</string>
+    <string name="AppIconWinter">Winter</string>
+    <string name="TestBackendNumber">Test Number</string>
+    <string name="TestBackend">Test Backend</string>
+    <string name="TestBackendOn">This account will connect to the test backend.</string>
+    <string name="TestBackendOff">This account will connect to the production backend.</string>
+    <string name="OwlSetting">Special Settings</string>
+    <string name="Chat">Chats</string>
+    <string name="OwlUpdates">Updates</string>
+    <string name="Experimental">Experimental Settings</string>
+    <string name="OnModeCheckTitle">On</string>
+    <string name="OffModeCheckTitle">Off</string>
+    <string name="ExperimentalOff">Warning! Those are experimental settings. Some may not work. Others may break the app. Any of them may disappear in the next version without a trace. Use at your own risk.</string>
+    <string name="ExperimentalDesc">Try experimental features. Some may not work correctly.</string>
+    <string name="DisableExperimentalAlert">Are you sure you want to disable experimental settings?\n\nNote that this will disable the Monet Icon.</string>
+    <string name="ChannelUsername">OwlGram</string>
+    <string name="OfficialGroup">Official Group</string>
+    <string name="GroupUsername">OwlGramForum</string>
+    <string name="TranslateOwl">Translate Hulugram</string>
+    <string name="Translate">Translate</string>
+    <string name="TranslateOwlDesc">Help us translate PhotoViewer2 into your language</string>
+    <string name="Donate">Donate</string>
+    <string name="DonateDesc">Support the development</string>
+    <string name="CopyReportDetails">Copy Report Details</string>
+    <string name="CopyReportDetailsDesc">Use when submitting a bug report</string>
+    <string name="ReportDetailsCopied">Report details copied to clipboard.</string>
+    <string name="ImportSettings">Import Settings</string>
+    <string name="ImportSettingsAlert">Are you sure you want to import these settings?</string>
+    <string name="ImportingChangesOne">1 change will be applied to the current settings.</string>
+    <string name="ImportingChangesOthers">%d changes will be applied to the current settings.</string>
+    <string name="SettingsImported">Settings have been imported.</string>
+    <string name="SameSettings">This backup contains the same changes as the current settings.</string>
+    <string name="UpdateToImport">This backup is not supported by your version of Hulugram. Update the app to import it.</string>
+    <string name="ExportSettings">Export Settings</string>
+    <string name="BackupName">Backup Name</string>
+    <string name="ResetSettingsAlert">Are you sure you want to reset Hulugram settings?</string>
+    <string name="ResetSettingsHint">Settings have been reset.</string>
+    <string name="AvatarAsBackground">Profile Photo as Background</string>
+    <string name="AvatarBlur">Blur Background</string>
+    <string name="AvatarDarken">Darken Background</string>
+    <string name="ShadeBackground">Gradient Background</string>
+    <string name="ShowAvatar">Show Avatar</string>
+    <string name="Avatar">Avatar</string>
+<!--    <string name="PermissionReadNotifications">To assist you in logging in quickly, Hulugram needs permission to read notifications from other Telegram apps on your device.\n\nWe will use this permission to capture login codes sent via notifications and help you log in automatically to this device.\n\nRest assured, we will only access notifications related to Telegram and won't use this information for any other purpose.</string>-->
+
+    <string name="PermissionReadNotifications">To assist you in logging in quickly, **Hulugram** needs permission to read notifications from other Telegram based apps on your device. we will use this permission to capture login codes sent via notifications and help you log in automatically to this device</string>
+    <string name="BlurIntensity">Blur intensity</string>
+    <string name="SideBarIconSet">Sidebar Icon Set</string>
+    <string name="MenuItems">Menu Items</string>
+    <string name="MenuItemsOrderDesc">Customize side menu items to better meet your needs.</string>
+    <string name="RecommendedItems">Recommended Menu Items</string>
+    <string name="ResetItemsOrder">Reset Items Order</string>
+    <string name="AddDivider">Add Divider</string>
+    <string name="Divider">Divider</string>
+    <string name="DatacenterStatus">Datacenter Status</string>
+    <string name="DatacenterStatusDesc">Check the Telegram\'s <![CDATA[<a href="https://core.telegram.org/api/datacenter">Datacenter</a>]]> Status in realtime.</string>
+    <string name="WebVersion">Open Web Version</string>
+    <string name="SunsetIcon">Sunset</string>
+    <string name="AppIconMonoBlack" comment="AppIconMonoBlack">Mono Black</string>
+    <string name="AppIconDeveloper" comment="AppIconDeveloper">Developer</string>
+    <string name="AppIconArctic" comment="AppIconArctic">Arctic</string>
+    <string name="AppIconFoxgram" comment="AppIconFoxgram">Shy Fox</string>
+    <string name="UnlockedHiddenFoxIcon">Oh… Congratulations! You unlocked the little shy fox icon.</string>
+    <string name="AppIconRainbow" comment="AppIconRainbow">Rainbow</string>
+    <string name="AppIconChupa" comment="AppIconChupa">Chupa</string>
+    <string name="UnlockedHiddenChupaIcon">You were chuped! Chupa\'s icon is now available in settings.</string>
+    <string name="ClassicIcon">Classic</string>
+    <string name="HidePhone">Hide Your Phone Number</string>
+    <string name="HidePhoneDesc">It will be hidden from settings and side menu</string>
+    <string name="HidePhoneOthers">Hide other people\'s Phone Number</string>
+    <string name="HidePhoneOthersDesc">It will be hidden just for you from their profile</string>
+    <string name="FontsAndEmojis">Fonts and Emoji</string>
+    <string name="UseSystemEmojis">Use System Emoji</string>
+    <string name="UseSystemEmojisDesc">Use system\'s emoji instead of the chosen ones</string>
+    <string name="PacManAnimation">Pac-Man Animation when Archive</string>
+    <string name="ChristmasHat">Christmas Hat</string>
+    <string name="FallingSnow">Falling Snow</string>
+    <string name="Fireworks">Fireworks</string>
+    <string name="FormatTimeSeconds">Format Time with Seconds</string>
+    <string name="FormatTimeSecondsDesc">18:45 &gt; 18:45:32</string>
+    <string name="FormatterDay24HSec">HH:mm:ss</string>
+    <string name="FormatterDay12HSec">h:mm:ss a</string>
+    <string name="NumberRounding">Number Rounding</string>
+    <string name="NumberRoundingDesc">35.702 &gt; 35.7k</string>
+    <string name="AppBarShadow">Shadow</string>
+    <string name="SlidingTitle">Sliding Title</string>
+    <string name="SearchIconTitleBar">Search Icon</string>
+    <string name="SlidingTitleDesc">If the chat title is long, it will scroll on the screen</string>
+    <string name="AccentAsNotificationColor">Accent Color as Notification Color</string>
+    <string name="ConfirmCalls">Prompt Before Calling</string>
+    <string name="ConfirmCallsDesc">Show confirmation dialog each time you call anyone</string>
+    <string name="StickersSize">Stickers Size</string>
+    <string name="ResetStickersSize">Reset Stickers Size</string>
+    <!-- HARRY POTTER QUOTE B.1 C.4 -->
+    <string name="StickerSizeDialogMessage2">Gallopin\' Gorgons, that reminds me.</string>
+    <string name="FlipMediaByTapping">Flip Media by Tapping on Edges</string>
+    <string name="JumpToNextChannel">Jump to Next Channel</string>
+    <string name="GreetingSticker">Greeting Sticker</string>
+    <string name="GIFsAsVideo">Play GIFs as Video</string>
+    <string name="HideChatKeyboard">Hide Keyboard on Chat Scroll</string>
+    <string name="ScrollableChatPreview">Scrollable Chat Preview</string>
+    <string name="OpenArchiveOnPull">Pull down to Open the Archive</string>
+    <string name="OnlineStatusDesc">Show the online status of other people next to their profile photo in groups</string>
+    <string name="HideAllChatsFolder">Hide "All Chats" Folder</string>
+    <string name="FoldersWhenForwarding">Show Folders when Forwarding</string>
+    <string name="ContextMenu">Context Menu</string>
+    <string name="ClearFromCache">Clear from Cache</string>
+    <string name="NoQuoteForward">NoQuote Forward</string>
+    <string name="AddToSavedMessages">Save Message</string>
+    <string name="AddToBookmarkMessages">Bookmark Message</string>
+    <string name="Repeat">Repeat</string>
+    <string name="TranslatorType">Translator Type</string>
+    <string name="TranslatorTypeOwl">In-Message</string>
+    <string name="TranslatorTypeTG">Dialog Popup</string>
+    <string name="TranslatorLanguageCode">Translation (%s)</string>
+    <string name="MessageTranslateProgress">translating</string>
+    <string name="MessageTranslated">translated</string>
+    <string name="UndoTranslate">Undo Translate</string>
+    <string name="TranslationProvider">Translation Provider</string>
+    <string name="TranslationProviderShort">Provider</string>
+    <string name="ProviderGoogleTranslate">Google Translate</string>
+    <string name="ProviderYandex">Yandex Translate</string>
+    <string name="ProviderDeepLTranslate">DeepL Translate</string>
+    <string name="ProviderNiuTrans">Niu Trans</string>
+    <string name="ProviderDuckDuckGo">DuckDuckGo Translate</string>
+    <string name="ProviderTelegram">Telegram Translate</string>
+    <string name="TranslationProviderInfo">%s may have access to the messages you translate.</string>
+    <string name="TranslationLanguage">Translation Language</string>
+    <string name="UseGoogleTranslate">Use Google</string>
+    <string name="ResetLanguage">Reset Language</string>
+    <string name="DeepLFormality">Formality</string>
+    <string name="DeepLFormalityDefault">Default</string>
+    <string name="DeepLFormalityMore">More</string>
+    <string name="DeepLFormalityLess">Less</string>
+    <string name="EditRemoveExceptionText">Are you sure you want to delete \"%1$s\" from auto-translate exceptions?</string>
+    <string name="EditDeleteException">Delete exception</string>
+    <string name="EditTopicsException">Edit topics exceptions</string>
+    <string name="MessageAlreadyInX">You cannot translate 1 message since it is already in %1$s.</string>
+    <string name="MessagesAlreadyInX">You cannot translate %1$d messages since they are already in %2$s.</string>
+    <string name="TranslationFailed">Translate Server Error</string>
+    <string name="TranslateApiUnsupported">The translation provider you selected don\'t support your language.</string>
+    <string name="BrokenMLKit">Unavailable Option</string>
+    <string name="BrokenMLKitDetail">Google MLKit language identifier is somehow broken on this device.</string>
+    <string name="DC_IDSettings">Datacenter and User ID</string>
+    <string name="Automatic">Automatic</string>
+    <string name="ShowID_DC">Show ID and DC in Profiles</string>
+    <string name="IDType">ID Type</string>
+    <string name="IDTypeAbout">Telegram\'s API shows IDs as they are, while the Bot API adds a minus sign for groups and -100 for supergroups, broadcast groups and channels.</string>
+    <string name="MessageDetails">Details</string>
+    <string name="UserInfo">User</string>
+    <string name="BotInfo">Bot</string>
+    <string name="FullName">Full Name</string>
+    <string name="MessageText">Text</string>
+    <string name="MessageTextLength">Text Length</string>
+    <string name="MessageDate">Date</string>
+    <string name="ForwardsNumber">Forwards</string>
+    <string name="ForwardedFrom">Forwarded from</string>
+    <string name="MessageScheduledDate">Scheduled date</string>
+    <string name="MessageScheduledWhenOnline">When online</string>
+    <string name="MessageInReply">Message in reply</string>
+    <string name="InReplyTo">In reply to</string>
+    <string name="AssociatedEmoji">Associated Emoji</string>
+    <string name="FileDC">Datacenter</string>
+    <string name="CameraTypeDefault">Default</string>
+    <string name="DefaultCameraDesc">Use the Telegram\'s built-in camera.</string>
+    <string name="CameraXDesc">CameraX is only supported on <![CDATA[<a href="https://developer.android.com/training/camerax/devices">selected devices</a>]]>, effects and lenses support depends on your manufacturer.</string>
+    <string name="PerformanceModeDesc">CameraX\'s quality will be reduced in favor of performance</string>
+    <string name="SystemCameraDesc">Access directly the system camera (not applicable for video messages).</string>
+    <string name="MediaSettings">Media</string>
+    <string name="VoiceEnhancements">Voice Enhancements</string>
+    <string name="VoiceEnhancementsDesc">Noise Suppression and Voice Normalization</string>
+    <string name="IncreaseVoiceMessageQuality">HQ Voice Messages</string>
+    <string name="TurnSoundOnVDKey">Turn Sound On by Turning Down the Volume</string>
+    <string name="TurnSoundOnVDKeyDesc">Unmute videos by pressing the volume down button</string>
+    <string name="SwipeToPiP">Swipe up to Picture-in-Picture</string>
+    <string name="SwipeToPiPDesc">Swipe up in the video player to open the video in Picture-in-Picture mode</string>
+    <string name="DisableProximityEvents">Disable Proximity Events</string>
+    <string name="RestartAppToApplyChanges">Restart app to apply changes.</string>
+    <string name="UseRearRoundVideos">Start with Rear Camera</string>
+    <string name="UseRearRoundVideosDesc">Record video messages with the rear camera instead of the front camera</string>
+    <string name="ConfirmAVMessages">Confirm Sending Audio/Video Messages</string>
+    <string name="ConfirmAVTitle">Confirm Sending</string>
+
+    <string name="ConfirmStickersGIFs">Confirm Sending Stickers and GIFs</string>
+    <string name="HideTimeOnSticker">Hide Time on Stickers</string>
+    <string name="OnlineStatus">Show Online Status</string>
+    <string name="InAppUpdates">In-App Updates</string>
+    <string name="CheckUpdates">Check</string>
+    <string name="UpdateOwlGram">Update Hulugram</string>
+    <string name="DownloadUpdate">Download</string>
+    <string name="DownloadingUpdate">Downloading…</string>
+    <string name="InstallUpdate">Install</string>
+    <string name="UpdateNote">Note:</string>
+    <string name="RemindUpdate">Remind me later</string>
+    <string name="InstallingUpdate">Installing Update</string>
+    <string name="InstallationInProgress">Installation in progress…</string>
+    <string name="InstallationWarning">Please keep the app open until the installation is complete.</string>
+    <string name="ErrorDuringInstallation">Error during installation!</string>
+    <string name="InstallationBlocked">The installation was blocked by your device. Please report this issue to Hulugram support.</string>
+    <string name="InstallationFailure">The APK file is corrupted. Please report this issue to Hulugram support.</string>
+    <string name="UnknownInstallationError">Your device raised an unknown error. Please report this issue to Hulugram support.</string>
+    <string name="NoMoreSpace">Your phone has run out of available storage. Please free some space to download and install the update.</string>
+    <string name="NoUpdateAvailable">Hulugram is up to date.</string>
+    <string name="NeverChecked">Never Checked</string>
+    <string name="LastCheckNever">Never</string>
+    <string name="CheckFailed">Unable to Check for Updates</string>
+    <string name="InstallBetas">Install Beta Versions</string>
+    <string name="InstallBetasDesc">Test new Hulugram updates before their official release</string>
+    <string name="AutoUpdate">Update Automatically</string>
+    <string name="AutoUpdatePrompt">Prompt when available</string>
+    <string name="APKsChannel">APKs Channel</string>
+    <string name="MediaStreamVoip">Use Media Stream in Video Chats</string>
+    <string name="UnlimitedFavoriteStickers">Unlimited Favorite Stickers</string>
+    <string name="UnlimitedFavoriteStickersDesc">It allows you to add unlimited stickers to favorites, but they may not be synced to other devices</string>
+    <string name="UnlimitedPinnedChats">Unlimited Pinned Chats</string>
+    <string name="UnlimitedPinnedChatsDesc">It allows you to pin unlimited chats by turning off their synchronization with the Telegram server</string>
+    <string name="MonetIcon">Force Monet Icon</string>
+    <string name="MonetIconDesc">Use Material You\'s dynamic icon on Android 12</string>
+    <string name="MaxRecentStickers">Max Recent Stickers</string>
+    <string name="DownloadSpeed">Download Speed</string>
+    <string name="DownloadSpeedDefault">Default</string>
+    <string name="DownloadSpeedFast">Fast</string>
+    <string name="DownloadSpeedExtreme">Extreme</string>
+    <string name="FasterUploadSpeed">Increase Upload Speed</string>
+    <string name="AutoLockInstant">Instant</string>
+    <string name="MKVAsVideo">Show MKV as Video</string>
+    <string name="StreamAllVideos">Stream All Videos</string>
+    <string name="FoldersType">Folders Type</string>
+    <string name="FoldersTypeTitles">Titles</string>
+    <string name="FoldersTypeIcons">Icons</string>
+    <string name="FoldersTypeIconsTitles">Icons with Titles</string>
+    <string name="ChooseFolderIcon">Choose an Icon</string>
+    <string name="OwlGramVersion">Hulugram %1$s\nBased on Telegram %2$s</string>
+    <string name="OwlSoundOn">Enable Owl Sound</string>
+    <string name="OwlSoundOff">Disable Owl Sound</string>
+
+    <string name="JumpToBeginning">Jump to Beginning</string>
+    <string name="CreateMention">Create Mention</string>
+    <string name="CopyTitle">Copy Title</string>
+    <string name="CopyCallback">Copy Callback</string>
+    <string name="CopyID">Copy ID</string>
+    <string name="CopyInlineQuery">Copy Inline Query</string>
+    <string name="CallbackCopiedHint">Callback copied to clipboard.</string>
+    <string name="IDCopied">ID copied to clipboard.</string>
+    <string name="InlineQueryCopied">Inline Query copied to clipboard.</string>
+    <string name="StickerSavedHint">Sticker saved to gallery.</string>
+    <string name="UserRestrictionsSendStickers2">Send Stickers</string>
+    <string name="UserRestrictionsSendGifs">Send GIFs</string>
+    <string name="UserRestrictionsSendGames">Send Animated Games</string>
+    <string name="UserRestrictionsUseInlineBot">Use Inline Bots</string>
+    <string name="RestrictionReason">Restriction Reason</string>
+    <string name="AppLinkNotVerifiedTitle">App links not verified</string>
+    <string name="AppLinkNotVerifiedMessage">For Android 12 and newer, you need to manually add link to verified links in order to open t.me links in Hulugram.</string>
+    <string name="SendWithoutMarkdown">Send without markdown</string>
+    <string name="SaveWithoutMarkdown">Save without markdown</string>
+    <string name="SendAsEmoji">Send as emoji</string>
+    <string name="ChangeIcon">Change App Icon</string>
+    <string name="ChangeIconDesc">Since on Android 12 the monet icon was forced and you upgraded to Android 13, you need to change the app icon to the default one for a better support.</string>
+    <string name="AccountNameTitleBar">Account Name</string>
+    <string name="ShowPencilIcon">Pencil Icon for Edited Messages</string>
+    <string name="AccountProtection">Account Protection</string>
+    <string name="AccountProtectionDesc">Protect your accounts with a unique passcode. Tap the lock icon above your chat list to access them.</string>
+    <string name="EnableAccountProtection">Enable Account Protection</string>
+    <string name="SelectAccountDesc">Choose an account to protect with a passcode.</string>
+    <string name="CreatePasscodeInfoPIN2">Please enter any 4 digits that you will use to unlock your Telegram account.</string>
+    <string name="CreatePasscodeInfoPassword2">Please enter the password you will use to unlock your Telegram account.</string>
+    <string name="PasscodeAlreadyUsed">Passcode already used. Please choose another one.</string>
+    <string name="AccountProtectionHint1">Tap the lock icon above your chat list to access your hidden accounts.</string>
+    <string name="AccountProtectionHint2">When an account is protected with a passcode, it will be hidden from the side menu.</string>
+    <string name="DisableAccountProtection">Disable Account Protection</string>
+    <string name="DisableAccountProtectionAlert">Are you sure you want to disable the account protection feature?</string>
+    <string name="AppCrashed">Something went wrong</string>
+    <string name="AppCrashedDesc">Hulugram has stopped working. Please, send logs to the developers so that they can fix this bug as soon as possible.</string>
+    <string name="KeepMarkdown" comment="KeepMarkdown">Keep Markdown</string>
+    <string name="KeepMarkdownDesc" comment="KeepMarkdownDesc">When translating a message, keep the markdown formatting.</string>
+    <string name="ThemeMonetLight">Monet Light</string>
+    <string name="ThemeMonetDark">Monet Dark</string>
+    <string name="Patpat">Patpat</string>
+
+    <string name="LoginCodeSentTitle">Login Code Sent To Telegram</string>
+
+    <string name="OpenTelegram">Open Telegram</string>
+    <string name="CheckLoginCode">Check Login Code</string>
+    <string name="LoginCodeSentToOtherTelegramInfo">The login code has been sent to other Telegram apps. SMS is no longer supported for Hulugram. Please download Telegram if you don\'t have it installed to receive the login code via SMS.</string>
+
+
+
+    <!--    //plus-->
+    <string name="Features">Features</string>
+    <string name="GhostSetting">Ghost Setting</string>
+    <string name="ContactChanges">Contact Changes</string>
+    <string name="HiddenChat">Hidden Chat</string>
+    <string name="HulugramTermOfService">By continuing you agree for Hulugram term of service</string>
+
+    <string name="Cloud">Cloud</string>
+    <string name="LocalFolders">Local Folders</string>
+    <string name="CreateNewLocalFolderInfo">Create local folders for different groups of chats. this folders are saved locally so any change made in this folder does not update your folders in other devices</string>
+    <string name="EnterFolderName">Enter folder name</string>
+    <string name="HulugramLocation">Location</string>
+    <string name="ForwardWithoutQuote">Forward Without Quote</string>
+    <string name="RemoveFewChatsTitle">Remove %1$s</string>
+    <string name="RxnSentToUser">Reaction has been setn to user  **%1$s**?</string>
+    <string name="HideChat">Hide Chat</string>
+    <string name="HideChatConfirm">Are you sure you want to hide this chat?</string>
+
+    <string name="lib_name">PatternLockView</string>
+    <string name="message_pattern_dot_added">Dot added to pattern</string>
+    <string name="message_pattern_started">Pattern drawing started</string>
+    <string name="message_pattern_detected">Pattern drawing completed</string>
+    <string name="message_pattern_cleared">Pattern cleared</string>
+    <string name="settings_interface">Interface</string>fAddressPlaceHolder
+    <string name="settings_interface_action_bar_account_switch">Account switch in Toolbar</string>
+    <string name="settings_interface_action_bar_menu">3 dots in Toolbar</string>
+    <string name="settings_interface_app_icon_autumn">Autumn</string>
+    <string name="settings_interface_app_icon_black">Black</string>
+    <string name="settings_interface_app_icon_blue">Default</string>
+    <string name="settings_interface_app_icon_brown">Brown</string>
+    <string name="settings_interface_app_icon_coffee">Coffee</string>
+    <string name="settings_interface_app_icon_gray">Gray</string>
+    <string name="settings_interface_app_icon_green">Green</string>
+    <string name="settings_interface_app_icon_header">App icon</string>
+    <string name="settings_interface_app_icon_indigo">Indigo</string>
+    <string name="settings_interface_app_icon_melon">Melon</string>
+    <string name="settings_interface_app_icon_mint">Mint</string>
+    <string name="settings_interface_app_icon_peach">Peach</string>
+    <string name="settings_interface_app_icon_pink">Pink</string>
+    <string name="settings_interface_app_icon_purple">Purple</string>
+    <string name="settings_interface_app_icon_red">Red</string>
+    <string name="settings_interface_app_icon_spring">Spring</string>
+    <string name="settings_interface_app_icon_summer">Summer</string>
+    <string name="settings_interface_app_icon_white">White</string>
+    <string name="settings_interface_app_icon_winter">Winter</string>
+    <string name="settings_interface_app_icon_yellow">Yellow</string>
+    <string name="CancelReasonDriverAskToCancel">Driver ask ro cancel</string>
+    <string name="CancelReasonAccidentalRequest">Accidental request</string>
+    <string name="CancelReasonWrongPickupLocation">Wrong pickup location</string>
+    <string name="CancelReasonLongWaitingTime">Long waiting time</string>
+    <string name="DoNotCancel">Do not cancel</string>
+    <string name="HUlugramPrivacyPolicy">Hulugram will synchronize your contact for better experience, for more information read our privacy policy</string>
+    <string name="ManageShortcut">Manage Shortcut</string>
+
+    <string name="PatternConfirm">Confirm</string>
+    <string name="ProfileChange">Profile change</string>
+    <string name="ProfilePhotoChanged">Profile photo</string>
+    <string name="ChatSorting">Chat Sorting</string>
+    <string name="HUluOnlineUsers">Online</string>
+    <string name="ForwardPro">Forward pro</string>
+    <string name="SpecialContacts">Special contacts</string>
+    <string name="Translator">Translator</string>
+    <string name="CopyPieceOfText">Copy piece of text</string>
+    <string name="Bio">Bio</string>
+    <string name="ForwardWithOutQuote">Forward without quoting</string>
+    <string name="ChatPreview">Chat preview</string>
+    <string name="IconTabs">Icon Tabs</string>
+    <string name="ShowIconsInsteadOfTextTabs">Show icons instead of text tabs</string>
+    <string name="Quote">Quote</string>
+    <string name="HuluSettings">Hulu Settings</string>
+    <string name="About">About</string>
+    <string name="OfficialChannelUsername">Hulugram_official</string>
+    <string name="OfficialGroupUsername">Hulugram_official_group</string>
+    <string name="TranslateMe">Translate</string>
+    <string name="Replace">Replace</string>
+    <string name="RateTheApp">Rate app</string>
+    <string name="RateTheAppAbout">For supporting Hulu Chat please submit a 5 star and comment in play store.</string>
+    <string name="NoProfileChange">No profile change.</string>
+    <string name="DialogsSettings">Dialogs settings</string>
+    <string name="HulugramSettings">Hulugram settings</string>
+    <string name="UseSystemDefaultFont">Use system default font</string>
+    <string name="UseSystemDefaultFontDesc">toggle this on to override the Hulugram app default font</string>
+    <string name="ScreenLayout">Screen layout</string>
+    <string name="ShowActionBarShadow">Hide status bar shadow</string>
+    <string name="TransparentStatusBar">Transparent status bar</string>
+    <string name="LeftToRight">Left to right</string>
+    <string name="RightToLeft">Right to left</string>
+    <string name="ShowUserNameInsteadOfMobile">Show username instead of mobile</string>
+    <string name="ScratchMobileNumber">Scratch mobile number</string>
+    <string name="TabsHeader">Tabs</string>
+    <string name="ChatPreviewVibrateOnShow">Chat preview vibrate on show</string>
+    <string name="GeneralSettings">General settings</string>
+    <string name="ShowUserBio">Show user bio</string>
+    <string name="HideAttachCamera">Hide attach camera</string>
+    <string name="StopMusicWhenRecording">Pause music when recording</string>
+    <string name="CheckBeforeSendingAudio">Check before sending audio</string>
+    <string name="ShopItemCount">%1$d items</string>
+    <string name="SearchProductTitle">Search Products</string>
+    <string name="SearchShopTitle">Search Shops</string>
+    <string name="ProductTab">Products</string>
+    <string name="ShopTab">Shops</string>
+    <string name="EmptyProductListing">No listing found!</string>
+    <string name="EmptyShopReview">No review yet!</string>
+    <string name="Review">Reviews</string>
+    <string name="Listing">Listing</string>
+    <string name="City">City</string>
+    <string name="Address">Address</string>
+    <string name="Website">Website</string>
+    <string name="Description">Description</string>
+    <string name="Reviews_many_one">%1$d Reviews</string>
+    <string name="SortbyRecent">Sort by Recent</string>
+    <string name="NoResultForFitler">No Result matching with your criteria</string>
+    <string name="SearchIn">Search in %1$s</string>
+    <string name="SearchFor">"Search For "</string>
+    <string name="DiscardNewProduct">List Product?</string>
+    <string name="DiscardNewProductAlert">You have not finished listing the product yet. List now?</string>
+    <string name="DiscardNewProductSave">List</string>
+    <string name="ProductDiscard">Discard</string>
+    <string name="AddOneAdminAlertTitle">Add Admin</string>
+    <string name="AddAdminsAlertTitle">Add %1$s</string>
+    <string name="Bots">Bots</string>
+    <string name="Channels">Channels</string>
+    <string name="Groups">Groups</string>
+    <string name="Users">Users</string>
+    <string name="Unread">Unread</string>
+    <string name="Shop">Shop</string>
+    <string name="Scan">Scan</string>
+    <string name="Ride">Ride</string>
+    <string name="AirTime">AirTime</string>
+    <string name="GoToFirstMessage">Go to first message</string>
+    <string name="UserIdCopied">User id copied to clipboard</string>
+    <string name="HuluNoChats">Welcome to Hulugram</string>
+    <string name="HuluDeletedUsers">Deleted Users</string>
+    <string name="HuluPremiumUsers">Premium Users</string>
+    <string name="HuluMutualContact">Mutual Contact</string>
+
+
+    <string name="PrivacyPolicyLogin">By continuing,\nyou agree to the *Privacy Policy*.</string>
+    <string name="OwlPrivacyPolicy">OwlGram Privacy Policy</string>
+    <string name="HideSendAsChannel">Hide "Send as Channel"</string>
+    <string name="AutomaticSorting">Automatic Sorting</string>
+    <string name="AutomaticSortingDesc">Move recently used custom emoji and sticker sets to the first position</string>
+    <string name="EmojiSets">Emoji Sets</string>
+    <string name="MyEmojiSets">My Emoji Sets</string>
+    <string name="InstalledEmojiSet">Installed</string>
+    <string name="InstallingEmojiSet">Installing…</string>
+    <string name="UpdateEmojiSet">Update</string>
+    <string name="EmojiSetHint">This affects emoji appearance only for you. Others see them based on their preferences.</string>
+    <string name="CustomEmojiSet">Custom Emoji Set</string>
+    <string name="CustomEmojiSetHint">Import and choose emoji sets from your internal storage.</string>
+    <string name="AddEmojiSet">Add Emoji Set</string>
+    <string name="ErrorEmojiFontInvalidFormat">File must be an emoji font file.</string>
+    <string name="EmojiSetRemoved">Emoji set removed</string>
+    <string name="EmojiSetRemovedInfo">%1$s is no longer in your emoji sets.</string>
+    <string name="DeleteEmojiSets">%1$s emoji sets</string>
+    <string name="DeleteEmojiSetsMessage">Are you sure you want to delete the selected emoji sets?</string>
+    <string name="ApplyEmojiSet">Apply emoji set</string>
+    <string name="InvalidCustomEmojiSet">Invalid font file.</string>
+    <string name="EmojiSetApplied">Emoji set applied</string>
+    <string name="EmojiSetAppliedInfo">%1$s is now your emoji set.</string>
+    <string name="EmojiSetAlreadyApplied">Emoji set already applied.</string>
+    <string name="EmojiSetErrorDownloading">Error downloading emoji set.</string>
+    <string name="ChatHeader">Chat Header</string>
+
+
+
+    <!--marketplace-->
+    <string name="HuluMarketPlaceTabTitleLiked">Liked</string>
+    <string name="HuluMarketPlaceTabTitleNotification">Notification</string>
+    <string name="HuluMarketPlaceTabTitleList">List</string>
+    <string name="HuluMarketPlaceTabTitlePurchases">Purchases</string>
+    <string name="HuluMarketPlaceTabTitleSales">Sales</string>
+    <string name="ShopName">Shop name</string>
+    <string name="Price">Price</string>
+    <string name="ShopFavorite">Favorite Products</string>
+    <string name="FavoriteProductEmpty">Empty!</string>
+    <string name="Error">Error!</string>
+    <string name="FavoriteProductEmptyMessage">You don\'t have any favorite product yet!</string>
+    <string name="ShopsEmptyMessage">You don\'t have any  shop yet!</string>
+    <string name="ShopsTitle">Shops</string>
+    <string name="SellTitle">Sell</string>
+    <string name="FavoriteTitle">Favorite</string>
+    <string name="SettingTitle">Setting</string>
+    <string name="CreateNewShopInfo">Create shop for using your own existing group or channel and quickly start  selling</string>
+    <string name="Shops">Create Shop</string>
+    <string name="CreateNewShop">Create New Shop</string>
+    <string name="ShopAddressInfo">Address is use full when u have physical shop associated,for the absence of physical shop you can use your location</string>
+    <string name="ShopAddresss">Address</string>
+    <string name="Business">Business</string>
+    <string name="ChooseCity">Choose a City</string>
+    <string name="ActionMore">More</string>
+    <string name="CarHintDesc">Tell us more about the features of your car! any additional accessories,e.g audio systems,wheel rims,airbadgs should be mentioned (optional)</string>
+    <string name="productInputImageDesc">Drag and drop to change the position of the photo! tap to add change photo</string>
+    <string name="confirmText">by continuing you agree for Hulugram term of service stated here  <![CDATA[<a href=\"https://telegram.org/faq#general-questions\">Telegram FAQ</a>]]></string>
+    <string name="ListProductTitle">List Item</string>
+    <string name="UsernameHelpForShop">You can choose a username on **Hulugram**. If you do, other people will be able to contact  you by this username</string>
+    <string name="ShareShop">Share</string>
+    <string name="ReportShop">Report</string>
+    <string name="shopUpdatedJustNow">listed just now</string>
+    <string name="ShopUpdatedFormatted">listed %1$s</string>
+    <string name="EditShop">Edit Shop</string>
+    <string name="DeleteAllMarketPlaceNotification">Delete All Notification</string>
+    <string name="DeleteAllMarketPlaceNotificationText">Do you want to delete all **Marketplace** notifications?</string>
+    <string name="List">List</string>
+    <string name="ShopDirectories">Shop  Directories</string>
+    <string name="Products">Products</string>
+    <string name="Offers">Offers</string>
+    <string name="NewShop">New Shop</string>
+    <string name="EditYourReview">Edit your review</string>
+    <string name="RateThisProduct">Rate this product!</string>
+    <string name="ProductRatePlaceHolder">Tell use what you think!</string>
+    <string name="SendProductReview">Send Review</string>
+    <string name="ReviewAcceptedInfo">To review product,first your offer has to be accepted by the seller!</string>
+    <string name="ReviewProduct">Review Product</string>
+    <string name="NoReviews">No Reviews</string>
+    <string name="ReviewEmptyPlaceHolder">All reviews will  appear here.</string>
+    <string name="ProductAvailable">Available</string>
+    <string name="ProductNotAvailable">Not Available</string>
+    <string name="ShopVerified">Verified</string>
+    <string name="ProductDeliverable">Deliverable</string>
+    <string name="SellerIncomingMessageDisabled">The seller does\'t accept message currently!</string>
+    <string name="SellerNotAvailable">The seller is unavailable currently!</string>
+    <string name="SellerIncomingOfferDisabled">The seller does\'t accept offer currently!</string>
+    <string name="MessageSentToSeller">Message has been sent to the seller!</string>
+    <string name="ScanQrCode">Scan QR code</string>
+    <string name="ScanQrCodeDesc">Scan the QR code to open the product</string>
+    <string name="ScanQrCodeShopDesc">Scan the QR code to open the shop</string>
+    <string name="CallSeller">Call</string>
+    <string name="MessageSeller">Message</string>
+    <string name="ProductOfferSentSuccess">Product offer sent</string>
+    <string name="ProductOfferSentFailed">Failed to send offer</string>
+    <string name="HuluQrCode">QR code!</string>
+    <string name="ProductAddedToLikeList">Product Added to your liked list</string>
+    <string name="ProductRemovedFromLikeList">Product Removed from your liked list</string>
+    <string name="ShareProduct">Share Product</string>
+    <string name="ShareProductDetail">Share Product Detail</string>
+    <string name="ShareProductDescription">Share Product Description</string>
+    <string name="CreateOffer">Create your offer!</string>
+    <string name="Offer10PercentLower">+%1$d (10%% lower)</string>
+    <string name="Offer15PercentLower">+%1$d (15%% lower)</string>
+    <string name="OfferDifferentAmount">Offer different amount</string>
+    <string name="OfferInfo">Your offer are hulugram message to the seller,they are no any payment,purchase detail are arranged with the seller later!</string>
+    <string name="CreateNewChannel">Create New Channel</string>
+    <string name="CreateNewChannelInfo">To start selling in Hulugram you need to have telegram channel</string>
+    <string name="RateAppDesc">Thanks for using hulugram  We work super hard to make hulugram better for you, and we would appreciate it!</string>
+    <string name="RateUs">Rate Us!</string>
+    <string name="BuyConfirmInfo">Tap Pay</string>
+    <string name="BuyInfo">Select your payment method and proceed.</string>
+    <string name="Marketplace">Marketplace</string>
+    <string name="UsernameHelpInfo">You can choose a username on Hulugram. If you do, other people will be able to find you by this username</string>
+    <string name="CreateShop">Create Shop</string>
+    <string name="FullAddressInfo">Add your shop physical address,make sure your address is specific as possible</string>
+    <string name="AddressPlaceHolder">Edna mall,3rd floor ....</string>
+    <string name="SeeMore">More</string>
+    <string name="Deliverable">Deliverable</string>
+    <string name="EmptyCollections">Empty Collections</string>
+
+
+
+    <!--wallet-->
+    <string name="Wallet">Wallet</string>
+    <string name="WalletScanCode">Scan QR Code</string>
+    <string name="WalletQRCode">QR Code</string>
+    <string name="WalletScanImageNotFound">No wallet address found in the selected image.</string>
+    <string name="WalletScanCodeNotFound">No wallet address found</string>
+    <string name="GramWallet">Gram Wallet</string>
+    <string name="CreateMyWallet">Create My Wallet</string>
+    <string name="ImportExistingWallet">Import existing wallet</string>
+    <string name="WalletCongratulations">Congratulations</string>
+    <string name="WalletCongratulationsinfo">Your Gram wallet has just been created. Only you control it.\n\nTo be able to always have access to it, please write down secret words and set up a secure passcode.</string>
+    <string name="WalletContinue">Continue</string>
+    <string name="WalletClose">CLOSE</string>
+    <string name="WalletSecretWords">24 Secret Words</string>
+    <string name="WalletSecretWordsTitle">Secret Words</string>
+    <string name="WalletSecretWordsInfo">Write down these 24 words in the correct order and store them in a secret place.\n\nUse these secret words to restore access to your wallet if you lose your passcode or device.</string>
+    <string name="WalletDone">Done</string>
+    <string name="WalletSecretWordsAlertTitle">Sure done?</string>
+    <string name="WalletSecretWordsAlertText">You didn’t have enough time to write these words down.</string>
+    <string name="WalletSecretWordsAlertButton">OK, SORRY</string>
+    <string name="WalletTestTimeTitle">Test Time!</string>
+    <string name="WalletTestTimeInfo">Now let’s check that you wrote your secret words correctly.\n\nPlease enter the words **%d**, **%d** and **%d** below:</string>
+    <string name="WalletTestTimeAlertTitle">Incorrect words</string>
+    <string name="WalletTestTimeAlertText">The secret words you have entered do not match the ones in the list.</string>
+    <string name="WalletTestTimeAlertButtonSee">See words</string>
+    <string name="WalletTestTimeAlertButtonTry">Try again</string>
+    <string name="WalletReady">Ready to go!</string>
+    <string name="WalletReadyInfo">You are all set. Now you have a wallet that only you control — directly, without middlemen or bankers.</string>
+    <string name="WalletView">View My Wallet</string>
+    <string name="WalletImportInfo">You can restore access to your wallet by entering the 24 words you wrote down when creating the wallet.</string>
+    <string name="WalletImportDontHave">I don’t have them</string>
+    <string name="WalletImportAlertTitle">Incorrect words</string>
+    <string name="WalletImportAlertText">Sorry, you have entered incorrect secret words. Please double check and try again.</string>
+    <string name="WalletTooBad">Too Bad!</string>
+    <string name="WalletTooBadInfo">Without the secret words you can’t restore access to the wallet.</string>
+    <string name="WalletTooBadEnter">Enter 24 secret words</string>
+    <string name="WalletTooBadCreate">Create a new empty wallet instead</string>
+    <string name="WalletPerfect">Perfect!</string>
+    <string name="WalletPerfectInfo">Now set up a passcode to secure your transactions.</string>
+    <string name="WalletPerfectSetPasscode">Set a Passcode</string>
+    <string name="WalletSetPasscode">Set a Passcode</string>
+    <string name="WalletSetPasscodeRepeat">Repeat the Passcode</string>
+    <string name="WalletSetPasscodeOptions">Passcode options</string>
+    <string name="WalletSetPasscodeEnterCode">Enter code</string>
+    <string name="WalletSetPasscodeChooseType">Choose code type</string>
+    <string name="WalletSetPasscode4Digit">4-Digit code</string>
+    <string name="WalletSetPasscode6Digit">6-Digit code</string>
+    <string name="WalletSetPasscodeCustom">Custom numeric code</string>
+    <string name="WalletSetPasscodeError">Passcodes do not match</string>
+    <string name="WalletSetPasscodeMinLength">Minimum passcode length is 4</string>
+    <string name="WalletSendDone">Done!</string>
+    <string name="WalletSendDoneText">%1$s Grams have been sent to</string>
+    <string name="WalletYourBalance">Your balance</string>
+    <string name="WalletYourTestBalance">Your test balance</string>
+    <string name="WalletLockedBalance">%1$s * locked</string>
+    <string name="WalletReceive">Receive</string>
+    <string name="WalletSend">Send</string>
+    <string name="WalletDeposit">Deposit</string>
+    <string name="WalletCreated">Wallet Created</string>
+    <string name="WalletYourAddress">Your wallet address</string>
+    <string name="WalletFrom">from:</string>
+    <string name="WalletTo">to:</string>
+    <string name="WalletReceiveYourAddress">Your Wallet Address</string>
+    <string name="WalletCopyAddress">Copy wallet address</string>
+    <string name="WalletCreateInvoice">Create invoice</string>
+    <string name="WalletShareAddress">Share Wallet Address</string>
+    <string name="WalletUpdatedFewSecondsAgo">updated a few seconds ago</string>
+    <string name="WalletUpdatedTimeAgo">updated %1$s ago</string>
+    <string name="WalletSwipeToRefresh">Swipe down to refresh</string>
+    <string name="WalletReleaseToRefresh">Release to refresh</string>
+    <string name="WalletUpdating">updating</string>
+    <string name="WalletUpdatingProgress">updating %d%%</string>
+    <string name="WalletSendGrams">Send Grams</string>
+    <string name="WalletSendRecipient">Recipient</string>
+    <string name="WalletEnterWalletAddress">Receiver</string>
+    <string name="WalletAddressCopy">Copy the 48-letter wallet address of the recipient here or ask them to send you a ton:// link.</string>
+    <string name="WalletAmount">Amount</string>
+    <string name="WalletComment">Comment</string>
+    <string name="WalletInvoiceInfo">You can specify the amount and purpose of the payment to save the sender some time:</string>
+    <string name="WalletShareInvoiceUrl">Share Invoice URL</string>
+    <string name="WalletShareInfo">Share this address with other Gram\nwallet owners to receive Grams from them.</string>
+    <string name="WalletTestShareInfo">Share this link to receive Test Grams.\nNote: this link won\'t work for real Grams.</string>
+    <string name="WalletShareInvoiceUrlInfo">Share this link with other Gram wallet owners to receive **%1$s Grams** from them.</string>
+    <string name="WalletTestShareInvoiceUrlInfo">Share this link to receive **%1$s Test Grams**.\nNote: this link won\'t work for real Grams.</string>
+    <string name="WalletCreateInvoiceTitle">Create Invoice</string>
+    <string name="WalletYourInvoice">Your Invoice</string>
+    <string name="WalletConfirmation">Confirmation</string>
+    <string name="WalletConfirmationText">Do you want to send **%1$s Grams** to:</string>
+    <string name="WalletConfirm">Confirm</string>
+    <string name="WalletEnterPasscode">Enter passcode</string>
+    <string name="WalletPasscodeLength">Your passcode contains %1$s.</string>
+    <string name="WalletSendingGrams">Sending Grams</string>
+    <string name="WalletSendingGramsInfo">Please wait a few seconds for your transaction to be processed...</string>
+    <string name="WalletSendConfirmCredentials">Please confirm your credentials to send Grams.</string>
+    <string name="WalletExportConfirmContinue">Please confirm your credentials to continue.</string>
+    <string name="WalletExportConfirmCredentials">Please confirm your credentials to export your wallet.</string>
+    <string name="WalletExport">Export Wallet</string>
+    <string name="WalletDelete">Log Out</string>
+    <string name="WalletSettings">Wallet Settings</string>
+    <string name="WalletServerSettings">Server Settings</string>
+    <string name="WalletChangePasscode">Change Passcode</string>
+    <string name="WalletDeleteTitle">Log out</string>
+    <string name="WalletKeystoreInvalidated">Unfortunately, your wallet is no longer available because of a change in your device\'s lockscreen parameters. Please use your secret words to restore the wallet.</string>
+    <string name="WalletPermissionNoCamera">Wallet needs access to your camera so that you can scan QR codes.</string>
+    <string name="WalletSecurityAlertTitle">Security</string>
+    <string name="WalletSecurityAlertTextBiometric">For better security, we recommend you to set up lockscreen biometric authentication.</string>
+    <string name="WalletSecurityAlertTextLockscreenBiometric">For better security, we recommend you to set up a lockscreen password and biometric authentication.</string>
+    <string name="WalletSecurityAlertTextLockscreen">For better security, we recommend you to set up a lockscreen password or pin.</string>
+    <string name="WalletSecurityAlertCreateContinue">Create anyway</string>
+    <string name="WalletSecurityAlertImportContinue">Import anyway</string>
+    <string name="WalletSecurityAlertSetup">Setup</string>
+    <string name="WalletTouchFingerprint">Touch the fingerprint sensor</string>
+    <string name="WalletTouchFingerprintNotRecognized">Fingerprint not recognized. Try again.</string>
+    <string name="WalletBiometricTooManyAttempts">Too many attempts. Please try again later.</string>
+    <string name="WalletSendWarningTitle">Warning</string>
+    <string name="WalletSendWarningText">This address belongs to an empty wallet. Are you sure you want to transfer grams to it?</string>
+    <string name="WalletSendWarningSendAnyway">Send anyway</string>
+    <string name="WalletSendBalance">Your Balance: %1$s</string>
+    <string name="WalletShareQr">Share QR</string>
+    <string name="WalletTransaction">Transaction</string>
+    <string name="WalletTransactionComment">Comment</string>
+    <string name="WalletTransactionRecipient">Recipient</string>
+    <string name="WalletTransactionSender">Sender</string>
+    <string name="WalletTransactionSendGrams">Send Grams to this Address</string>
+    <string name="WalletTransactionAddressCopied">Address copied to clipboard</string>
+    <string name="WalletStorageFee">%1$s storage fee</string>
+    <string name="WalletTransactionFee">%1$s transaction fee</string>
+    <string name="WalletBlockchainFees">%1$s blockchain fees</string>
+    <string name="WalletInsufficientGramsTitle">Insufficient Grams</string>
+    <string name="WalletInsufficientGramsText">Unfortunately, your transfer couldn\'t be completed. You don\'t have enough grams.</string>
+    <string name="WalletSendSameWalletText">Sending money from a wallet to the same wallet is not allowed</string>
+    <string name="WalletSendSameWalletProceed">Proceed</string>
+    <string name="WalletTonLinkNoWalletText">This link can be used to send money on the TON Blockchain. To do this, you need to set up a Gram wallet first.</string>
+    <string name="WalletSwitchedToMainnet">The Gram Wallet has switched from the testing to the main network.\n\nIn case you want to perform more testing you can switch back to the Test Gram network in Settings and reconnect your wallet using 24 secret words.</string>
+    <string name="WalletTonLinkNoWalletCreateWallet">Create Wallet</string>
+    <string name="WalletPendingTransactions">Pending</string>
+    <string name="WalletDate">Date</string>
+    <string name="WalletFee">Blockchain fee: ~%1$s Grams</string>
+    <string name="WalletPendingWait">Please wait until the wallet is loaded!</string>
+    <string name="WalletTransactionPendingWait">Please wait until the transaction is confirmed!</string>
+    <string name="WalletBlockchainName">Blockchain ID</string>
+    <string name="WalletConfigType">Config source</string>
+    <string name="WalletConfigTypeInfo">Using a different configuration allows you to change Lite Server addresses.</string>
+    <string name="WalletConfigTypeUrl">Url</string>
+    <string name="WalletConfigTypeJson">Json</string>
+    <string name="WalletConfigTypeJsonHeader">Config json</string>
+    <string name="WalletConfigTypeUrlHeader">Config url</string>
+    <string name="WalletConfigTypeJsonHint">Enter config json</string>
+    <string name="WalletConfigTypeUrlHint">Enter config url</string>
+    <string name="WalletBlockchainNameHint">Enter blockchain ID</string>
+    <string name="WalletBlockchainNameInfo">This setting is for developers. Change it only if you are working on creating your own TON network.</string>
+    <string name="WalletBlockchainNameWarning">Are you sure you want to change the blockchain ID? You don\'t need this unless you\'re testing your own TON network.\n\nIf you proceed, you will need to reconnect your wallet using 24 secret words.</string>
+    <string name="WalletError">Error</string>
+    <string name="WalletBlockchainConfigLoadError">App was unable to load blockchain config from the given url. Please make sure that url is corrent and you have an active Internet connection.</string>
+    <string name="WalletBlockchainConfigInvalid">Sorry, this config is invalid.</string>
+    <string name="WalletCreateBlockchainConfigLoadError">App was unable to load blockchain config. Please make sure that you have an active Internet connection.</string>
+    <string name="WalletSendSyncInProgress">Please wait while the wallet finishes syncing with the TON Blockchain.</string>
+    <string name="GramWalletInfo">The gram wallet allows you to make fast and secure blockchain-based payments without intermediaries.</string>
+    <string name="WalletDeleteInfo">This will disconnect the wallet from this app. You will be able to restore your wallet using 24 secret words – or import another wallet.\n\nGram Wallets are located in the decentralized TON Blockchain. If you want a wallet to be deleted, simply transfer all the grams from it and leave it empty.</string>
+    <string name="WalletEncryptedMessage">Encrypted message</string>
+    <string name="WalletDecryptConfirmCredentials">Please confirm your credentials to decrypt transactions messages.</string>
+    <string name="WalletCantEncryptComment">**Note:** Your comment \"%1$s\" will **not be encrypted**.</string>
+    <string name="WalletTestNetworkSwitch">Are you sure you want to switch to the Test Gram network? It exists only for testing purposes.\n\nIf you proceed, you will need to reconnect your wallet using 24 secret words.</string>
+    <string name="WalletMainNetworkSwitch">Are you sure you want to switch to the Main Gram network?\n\nIf you proceed, you will need to reconnect your wallet using 24 secret words.</string>
+    <string name="WalletMainNetwork">Main Network</string>
+    <string name="WalletTestNetwork">Test Network</string>
+    <string name="WalletEmptyTransaction">Empty transaction</string>
+    <string name="WalletInitTransaction">Wallet initialization</string>
+    <string name="WalletTosUrl"> </string>
+    <string name="ShareTransaction">Share Transaction</string>
+    <string name="Deposit">Deposit</string>
+    <string name="Withdraw">Withdraw</string>
+    <string name="AttachWallet">Wallet</string>
+    <string name="CancelTransferAlertTitle">Discard Transfe?</string>
+    <string name="CancelTransferAlertText">Are you sure you want to discard this Trasnfer?</string>
+
+    <!--    bookmark-->
+    <string name="HuluBookmarkedCount_zero">%1$d Bookmarked Messages</string>
+    <string name="HuluBookmarkedCount_one">Bookmarked Message</string>
+    <string name="HuluBookmarkedCount_two">%1$d Bookmarked Messages</string>
+    <string name="HuluBookmarkedCount_few">%1$d Bookmarked Messages</string>
+    <string name="HuluBookmarkedCount_many">%1$d Bookmarked Messages</string>
+    <string name="HuluBookmarkedCount_other">%1$d Bookmarked Messages</string>
+    <string name="HuluMessagesBookmarkDelete_zero">%1$d messages removed</string>
+    <string name="HuluMessagesBookmarkDelete_one">Message removed</string>
+    <string name="HuluMessagesBookmarkDelete_two">%1$d messages removed</string>
+    <string name="HuluMessagesBookmarkDelete_few">%1$d messages removed</string>
+    <string name="HuluMessagesBookmarkDelete_many">%1$d messages removed</string>
+    <string name="HuluMessagesBookmarkDelete_other">%1$d messages removed</string>
+    <string name="BookmarkMessagesDeleted">Bookmarked messages removed</string>
+    <string name="HuluRemoveAllBookmarkedMessages">REMOVE ALL MESSAGES</string>
+    <string name="HuluAddToBookMarkMessage">Bookmark</string>
+    <string name="HuluRemoveBookMarkMessage">Remove From Bookmark</string>
+    <string name="MessageBookmarkedHint">Message Added To Bookmark</string>
+    <string name="MessageRemoveBookmarkHint">Message Removed From Bookmark</string>
+    <string name="HuluBookmarkedMessage">Bookmarked Message</string>
+    <string name="HuluBookmark">Bookmark</string>
+    <string name="HuluNoBookmarkChats">No bookmarked chats</string>
+    <string name="HuluNoBookmarkUsers">No bookmarked users</string>
+    <string name="HuluNoBookmarkChatInfo">Your bookmarked chat messages is empty.</string>
+    <string name="HuluNoBookmarkUserInfo">Your bookmarked user messages is empty.</string>
+    <string name="HuluRemoveBookmarksMessage_zero">Do you want remove these **%d bookmarks**?</string>
+    <string name="HuluRemoveBookmarksMessage_one">Do you want remove this bookmark?</string>
+    <string name="HuluRemoveBookmarksMessage_two">Do you want remove these **%d bookmarks**?</string>
+    <string name="HuluRemoveBookmarksMessage_few">Do you want remove these **%d bookmarks**?</string>
+    <string name="HuluRemoveBookmarksMessage_many">Do you want remove these **%d bookmarks**?</string>
+    <string name="HuluRemoveBookmarksMessage_other">Do you want remove these **%d bookmarks**?</string>
+    <string name="HuluRemoveBookmarkAlertMessage">They will  remove your bookmarks, but  will not delete the chats or messages from cloud.</string>
+
+
+    <string name="ShowNotificationsForMutedUsers">Show notifications for muted users</string>
+    <string name="ShowToastNotificationsInBottom">Show toast notifications in bottom</string>
+    <string name="ShowTypingToast">Show typing… toast</string>
+    <string name="ShowOnlinePushNotification">Show online push notification</string>
+
+    <string name="CreateNewDraftInfo">Pre Create messages to send message quickly  to  different  chats</string>
+    <string name="NoDrafs">No Draft found</string>
+
+    <string name="HulugramTermOfServices">Hulugram Terms of Services</string>
+    <string name="AcceptAndContinue">Accept and Continue</string>
+
+
+    <string name="HuluTermsofServices">**Terms of Services**</string>
+
+
+
+</resources>

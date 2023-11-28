@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false" />
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">dev.huluchat.com</domain>
+        <domain includeSubdomains="true">134.209.228.114</domain>
+        <domain includeSubdomains="true">207.154.252.167</domain>
+
+    </domain-config>
+</network-security-config>

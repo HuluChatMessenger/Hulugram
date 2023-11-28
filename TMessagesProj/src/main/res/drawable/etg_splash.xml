@@ -1,0 +1,74 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="splash"
+            android:width="320dp"
+            android:height="320dp"
+            android:viewportWidth="320"
+            android:viewportHeight="320">
+            <path
+                android:name="splash_background"
+                android:pathData="M 160 85 C 140.116 85 121.027 92.907 106.967 106.967 C 92.907 121.027 85 140.116 85 160 C 85 179.884 92.907 198.973 106.967 213.033 C 121.027 227.093 140.116 235 160 235 C 179.884 235 198.973 227.093 213.033 213.033 C 227.093 198.973 235 179.884 235 160 C 235 140.116 227.093 121.027 213.033 106.967 C 198.973 92.907 179.884 85 160 85 Z"
+                android:fillColor="@color/ic_background_monet"
+                android:fillAlpha="0"
+                android:strokeWidth="1"/>
+            <path
+                android:name="splash_icon"
+                android:pathData="M24.54,15.57a2.65,2.65 0,0 0,-0.48 -1.06h0c-2,-1.64 -4.61,-2.7 -6.85,-4.13h0L12.52,7.69h0l-0.8,-0.46L11.39,7A2.41,2.41 0,0 0,7.47 9.22,2.38 2.38,0 0,0 8.6,10.91c0.78,0.46 1.55,0.89 2.36,1.36l1,0.56 3.34,1.92h0L17.44,16l-0.53,0.3L15.64,17l-5.55,3.2h0c-2.19,1 -2.8,2.21 -2.64,3.23a2.51,2.51 0,0 0,2 2h0c1.45,0.19 2.69,-1.1 3.95,-1.68l0.49,-0.28 2.87,-1.66 2.82,-1.62c2.45,-1.49 3.67,-1.93 4.43,-2.74h0l0.17,-0.24h0a2.43,2.43 0,0 0,0.33 -1A2.18,2.18 0,0 0,24.54 15.57Z"
+                android:fillColor="@color/ic_foreground_monet"
+                android:fillAlpha="0"
+                android:strokeWidth="1"/>
+        </vector>
+
+    </aapt:attr>
+    <target android:name="splash_background">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:propertyName="pathData"
+                    android:startOffset="200"
+                    android:duration="400"
+                    android:valueFrom="M 160 85 C 140.116 85 121.027 92.907 106.967 106.967 C 92.907 121.027 85 140.116 85 160 C 85 179.884 92.907 198.973 106.967 213.033 C 121.027 227.093 140.116 235 160 235 C 179.884 235 198.973 227.093 213.033 213.033 C 227.093 198.973 235 179.884 235 160 C 235 140.116 227.093 121.027 213.033 106.967 C 198.973 92.907 179.884 85 160 85 Z"
+                    android:valueTo="M 160 60 C 133.489 60 108.036 70.543 89.289 89.289 C 70.543 108.036 60 133.489 60 160 C 60 186.511 70.543 211.964 89.289 230.711 C 108.036 249.457 133.489 260 160 260 C 186.511 260 211.964 249.457 230.711 230.711 C 249.457 211.964 260 186.511 260 160 C 260 133.489 249.457 108.036 230.711 89.289 C 211.964 70.543 186.511 60 160 60 Z"
+                    android:valueType="pathType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+                <objectAnimator
+                    android:propertyName="fillAlpha"
+                    android:startOffset="200"
+                    android:duration="400"
+                    android:valueFrom="0"
+                    android:valueTo="1"
+                    android:valueType="floatType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+            </set>
+        </aapt:attr>
+    </target>
+
+    <target android:name="splash_icon">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:propertyName="pathData"
+                    android:startOffset="200"
+                    android:duration="400"
+                    android:valueFrom="M24.54,15.57a2.65,2.65 0,0 0,-0.48 -1.06h0c-2,-1.64 -4.61,-2.7 -6.85,-4.13h0L12.52,7.69h0l-0.8,-0.46L11.39,7A2.41,2.41 0,0 0,7.47 9.22,2.38 2.38,0 0,0 8.6,10.91c0.78,0.46 1.55,0.89 2.36,1.36l1,0.56 3.34,1.92h0L17.44,16l-0.53,0.3L15.64,17l-5.55,3.2h0c-2.19,1 -2.8,2.21 -2.64,3.23a2.51,2.51 0,0 0,2 2h0c1.45,0.19 2.69,-1.1 3.95,-1.68l0.49,-0.28 2.87,-1.66 2.82,-1.62c2.45,-1.49 3.67,-1.93 4.43,-2.74h0l0.17,-0.24h0a2.43,2.43 0,0 0,0.33 -1A2.18,2.18 0,0 0,24.54 15.57Z"
+                    android:valueTo="M24.54,15.57a2.65,2.65 0,0 0,-0.48 -1.06h0c-2,-1.64 -4.61,-2.7 -6.85,-4.13h0L12.52,7.69h0l-0.8,-0.46L11.39,7A2.41,2.41 0,0 0,7.47 9.22,2.38 2.38,0 0,0 8.6,10.91c0.78,0.46 1.55,0.89 2.36,1.36l1,0.56 3.34,1.92h0L17.44,16l-0.53,0.3L15.64,17l-5.55,3.2h0c-2.19,1 -2.8,2.21 -2.64,3.23a2.51,2.51 0,0 0,2 2h0c1.45,0.19 2.69,-1.1 3.95,-1.68l0.49,-0.28 2.87,-1.66 2.82,-1.62c2.45,-1.49 3.67,-1.93 4.43,-2.74h0l0.17,-0.24h0a2.43,2.43 0,0 0,0.33 -1A2.18,2.18 0,0 0,24.54 15.57Z"
+                    android:valueType="pathType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+                <objectAnimator
+                    android:propertyName="fillAlpha"
+                    android:startOffset="200"
+                    android:duration="400"
+                    android:valueFrom="0"
+                    android:valueTo="1"
+                    android:valueType="floatType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+            </set>
+        </aapt:attr>
+    </target>
+
+
+
+</animated-vector>

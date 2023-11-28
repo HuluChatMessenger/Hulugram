@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="RtlHardcoded"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dip">
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="42dip"
+        android:layout_height="42dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dip"
+        android:layerType="hardware"
+        tools:src="#0f0" />
+
+    <LinearLayout
+        android:id="@+id/text_wrap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/photo"
+        android:layout_toRightOf="@+id/photo"
+        android:layout_marginLeft="12dip"
+        android:layout_marginRight="20dip"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical|left"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="left"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textSize="17dip"
+            tools:text="Wow Such Doge" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textSize="14dip"
+            tools:text="Telegram Call" />
+    </LinearLayout>
+</RelativeLayout>
